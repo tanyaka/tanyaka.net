@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>.: tanyaka.net:.</title>
+
+<meta name='author' content='Tatjana Kaschperko Lindt, tanyaka.net'>
+<meta name='description' content='Tatjana Kaschperko Lindt, Tatiana Kashperko, Tatiana Kachperko, tanyaka'>
+<link rel="icon" href="img/ico2.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/mystyle.css">
+
+<script src="js/jquery-1.8.3.min.js"></script>
+
+
+
+
+</style><!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--></head>
+
+<body>
+<aside class="left">
+    <header role="contentinfo">
+    	hi!<br>here is my portfolio,<br>take a look at some of my work samples:
+    </header>
+    <nav id="main_nav"></nav>
+    <address>
+    mail<img src="img/at.gif" class="at">tanyaka.net<br />
+    tatjana kaschperko lindt<br>
+    zehdenicker str.14<br>
+    10119 berlin
+    </address>
+</aside>
+
+<div role="main" class="left" id="main"></div>
+
+<script src="js/tanyaka.navigation.js"></script>
+<script>
+
+$(document).ready(function(){
+	if($("aside nav").length !== 0) {
+		$("aside nav").navigation();
+	};
+});
+
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+[
+	{
+	"navi": "chaqwa.de",
+	"navi_icon_hex": "&alefsym;",
+	"heading": "coke-faithless.com, coke flash microsite to promote their new bottle design. you can explore the bottle by creating your own visual poetry and create your own bottle design by using your built in webcam, microphone, mouse and keyboard all to control the avatar who kindly throws your visual poetry onto the bottle.",
+	"description": "done by <a href=\"http//:www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>.<br />my tasks: program the option-menu animation and the page about videoartists received a FWA - Site of the Day 07.06.2007, thefwa.com/site/coke-faithless, DDC Gold 2007, ddc.de and many others the site is already offline, watch the video of it"
+	},
+	{
+	"navi": "peganova.de",
+	"navi_icon_hex": "&upsih;",
+	"heading": "<a href=\"http://www.peganova.de\" target=\"_blank\">peganova.de</a>. photography, portfolio ",
+	"description": "Flash, AS3"
+	},
+	{
+	"navi": "miralab",
+	"navi_icon_hex": "&upsih;",
+	"heading":"<p>screenshots 1 2 3 4</p><p>Restructuring of the MIRALab’s intranet</p><p>University of Geneva, 2004</p><p>Faculty of Economics and Social Sciences</p><p>Postgraduate DEA in \"Communication and Media Studies\"</p>",
+	"description": "General description</p><p>1. Main objective</p><p>Develop a new version of the MIRALab’s intranet according to the new ColdFusion dynamic technologies. Integrate the old intranet's contents with the new database contents and develop new tools to take advantage of this dynamicity.</p><p>2. Technical purposes and goals</p><p>• Create a new design of INTRANET and integrate it with a technical structure, that can be easily be updated, programmed with ColdFusion and linked to databases, developed in HTML + .cfm templates.</p><p>• Show all the necessary private information about the staff of MIRALab and provide a possibility to update it via the website.</p><p>• Create a ‘questions and answers' section founded on a database and equipped with a search tool. Users may keep it up to date by adding their own records and modifying the given ones.</p><p>• Create several small and integrated web-based applications that will allow the user to update some sections.</p><p>3. Programming languages used</p><p>• Basic HTML</p><p>• ColdFusion</p><p>• SQL</p><p>4. Programs used</p><p>• Dreamweaver MX</p><p>• Flash MX</p><p>• Access</p><p>• MySQL database"
+	},
+	{
+	"navi": "jackholden.org",
+	"navi_icon_hex": "&upsih;",
+	"heading": "<a href=\"http://www.jackholden.org\" target=\"_blank\">jackholden.org</a>. artist, portfolio ",
+	"description": "Flash, AS3"
+	},
+	{
+	"navi": "apollinaris.de",
+	"navi_icon_hex": "&upsih;",
+	"heading": "apollinaris.de, german website of apollinaris mineral water products. flash project with pureMVC framework.",
+	"description": "done by argonauteng2.de, my tasks: program and animate numerous content pages and meta navigation."
+	},
+	{
+	"navi": "CokeFridge.de",
+	"navi_icon_hex": "&upsih;",
+	"heading": "CokeFridge.de is a coke portal to win the prises from coke partners by participating in actual promotion. you can create your CokeFridge account, collect codes from coca-cola bottle caps, transform them in coke coins and participate in a promotion<br>done by argonauteng2.de",
+	"description": "Flex project with Flash elements. pureMVC framework. promotins done completely in Flash. my tasks: programm complete meta navigation with ist content and numerous promotions."
+	},
+	{
+	"navi": "coke santa gift service",
+	"navi_icon_hex": "&upsih;",
+	"heading": "Coke Christmas Gift Service application for facebook, you can customize and send your facebook friends a gift for xmass 2009, choose a card, present wrap and write a personal message.<br>done by argonauteng2.de<br>the project is not online, watch the video of it",
+	"description": "Flash project with pureMVC framework. my tasks: create the flahs frontend and integrate it with facebook api"
+	},
+	{
+	"navi": "chaqwa.de",
+	"navi_icon_hex": "&alefsym;",
+	"heading": "coke-faithless.com, coke flash microsite to promote their new bottle design. you can explore the bottle by creating your own visual poetry and create your own bottle design by using your built in webcam, microphone, mouse and keyboard all to control the avatar who kindly throws your visual poetry onto the bottle.",
+	"description": "done by <a href=\"http//:www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>.<br />my tasks: program the option-menu animation and the page about videoartists received a FWA - Site of the Day 07.06.2007, thefwa.com/site/coke-faithless, DDC Gold 2007, ddc.de and many others the site is already offline, watch the video of it"
+	}
+]
