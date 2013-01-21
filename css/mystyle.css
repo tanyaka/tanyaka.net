@@ -27,7 +27,6 @@ aside header {
 #main article {
 	position:absolute;
 	display:none;
-	opacity:0;
 	width:60%;
 }
 

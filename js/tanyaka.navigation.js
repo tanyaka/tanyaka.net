@@ -19,14 +19,16 @@
 		 * @return {jQuery} this
 		 */
 		init: function(options) {
-			//return this.each(function() {
+			return this.each(function() {
 				var $this = $(this),
 
 				init_data = {
 					articleLinks: 0,
-					currentArticle: 0,
+					currentArticle: null,
 					previousArticle: null,
-					animationOnn: false
+					animationOnn: false,
+					testDuration: 600,
+					easeType: 'easeOutCubic'
 				};
 				
 				if(!$this.data("navigation")) $this.data("navigation", init_data);
@@ -47,14 +49,18 @@
 					// bind click to collection browser links
 					$("#main_nav a").bind("click", function(event) {
 						event.preventDefault();
-						data.currentArticle = $("#main_nav li").index($(this).parent("li"));
-						if(data.currentArticle != data.previousArticle && !data.animationOnn) $this.navigation('showArticle');
+						var temp = $("#main_nav li").index($(this).parent("li"));
+						
+						if (temp != data.currentArticle  && !data.animationOnn) {
+							data.currentArticle = temp;
+							$this.navigation('showArticle', data.currentArticle);
+						}
 					});
 				})
 				.error(function() { 
 					$('<error>load json error</error>').appendTo('#main_nav');
 				});
-			//});
+			});
 		}, // init
 
 		/**
@@ -64,25 +70,23 @@
 		 * @return {jQuery} this
 		 */
 		showArticle: function() {
-			//return this.each(function() {
+			return this.each(function() {
 				var $this = $(this),
 					data = $this.data("navigation");
+				
 				data.animationOnn = true;
 				
 				if(data.previousArticle !== null) {
-					$("#a_"+data.previousArticle).animate( {opacity: 0}, 200, function() { $("#a_"+data.previousArticle).css({'display':'none'}) });
+					$("#a_"+data.previousArticle).fadeToggle(data.testDuration,data.easeType);
 				}
-
-				$("#a_"+data.currentArticle).animate( {opacity: 1}, 
-					200, 
-					function() { 
+				$("#a_"+data.currentArticle).fadeToggle(data.testDuration,data.easeType,
+					function() {
 						data.previousArticle = data.currentArticle;
 						data.animationOnn = false;
-					} 
-				).css('display', 'block');
-
+					}
+				);
 				
-			//});
+			});
 		}// showArticle
 
 		
@@ -96,6 +100,10 @@
 		} else {
 			$.error( '[jQuery.navigation] Method: ' +  method + ' is unknown');
 		}	 
+	};
+
+	jQuery.fn.fadeToggle = function(speed, easing, callback) {
+		return this.animate({opacity: 'toggle'}, speed, easing, callback);
 	};
 
 }(jQuery));
