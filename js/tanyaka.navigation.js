@@ -2,9 +2,8 @@
  * $Id$
  */
 /**
- * jQuery  navigation Plugin
+ * jQuery  main-navigation Plugin
  * 
- * A main-navigation plugin.
  *
  * @project         tanyaka.net
  * @copyright       tanyaka
@@ -27,7 +26,7 @@
 					currentArticle: null,
 					previousArticle: null,
 					animationOnn: false,
-					testDuration: 600,
+					testDuration: 300,
 					easeType: 'easeOutCubic'
 				};
 				
@@ -39,10 +38,12 @@
 				$.getJSON(json_path, function(json) {
 					var navis = [], articles = [];
 					$.each(json, function(key, val) {
-						navis.push('<li><a href="'+val.navi+'">' + val.navi + '</a></li>');
+						navis.push('<li><a href="'+val.navi+'" class="a'+key+'">' + val.navi_icon_hex +' '+ val.navi + '</a></li>');
 						articles.push('<article id="a_' + key + '"><header>'+val.heading+'</header>' + val.description + '</article>');
 						data.articleLinks++;
 					});
+					$('#main_nav').html('');
+					
 					$('<ul/>', {html: navis.join('')}).appendTo('#main_nav');
 					$(articles).appendTo('#main');
 					
@@ -64,9 +65,8 @@
 		}, // init
 
 		/**
-		 * Load collection page into container.
-		 * Add bg image and hotspot links.
-		 * Start slideshow.
+		 * Toggle visibility for selected and previous articles
+		 * 
 		 * @return {jQuery} this
 		 */
 		showArticle: function() {
@@ -77,7 +77,8 @@
 				data.animationOnn = true;
 				
 				if(data.previousArticle !== null) {
-					$("#a_"+data.previousArticle).fadeToggle(data.testDuration,data.easeType);
+					//$("#a_"+data.previousArticle).fadeToggle(data.testDuration,data.easeType);
+					$("#a_"+data.previousArticle).fadeToggle(0);
 				}
 				$("#a_"+data.currentArticle).fadeToggle(data.testDuration,data.easeType,
 					function() {
@@ -102,7 +103,7 @@
 		}	 
 	};
 
-	jQuery.fn.fadeToggle = function(speed, easing, callback) {
+	$.fn.fadeToggle = function(speed, easing, callback) {
 		return this.animate({opacity: 'toggle'}, speed, easing, callback);
 	};
 

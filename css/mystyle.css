@@ -20,8 +20,8 @@ aside {
 	padding: 0 50px 0 0;
 }
 
-aside header {
-	margin-bottom:20px;
+aside nav {
+	margin:20px 0;
 }
 
 #main article {
@@ -30,145 +30,133 @@ aside header {
 	width:60%;
 }
 
+em {
+	background-color:#FCF;
+	border-radius: 3px;
+	padding: 1px 3px;
+}
 
+img {
+	border: 1px solid #999999;
+	padding: 0;
+	margin: 0;
+	display:block;
+}
 
-
-
-
-
+img.at {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	display:inline;
+}
 
 .left {
 	float:left;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 a:link, a:visited, a:active {
 	color: #999999;
 	text-decoration: underline;
-	padding: 0 3px 0 0;
-	}
+	padding: 0;
+}
 a:hover {
-	color: #FF66CC;
-	}
-a.bld:link, a.bld:visited, a.bld:active {
-	color: #999999;
-	text-decoration: underline;
-	padding: 0 2px 0 2px;
-	}
-a.bld:hover {
-	color: #FF66CC;
-	background-color: #FFFFFF;
-	}
-a.a1:link, a.a1:visited, a.a1:active,
-a.a2:link, a.a2:visited, a.a2:active,
-a.a3:link, a.a3:visited, a.a3:active,
-a.a4:link, a.a4:visited, a.a4:active,
-a.a5:link, a.a5:visited, a.a5:active,
-a.a6:link, a.a6:visited, a.a6:active,
-a.a7:link, a.a7:visited, a.a7:active,
-a.a8:link, a.a8:visited, a.a8:active,
-a.a9:link, a.a9:visited, a.a9:active,
-a.a10:link, a.a10:visited, a.a10:active,
-a.a11:link, a.a11:visited, a.a11:active,
-a.a12:link, a.a12:visited, a.a12:active,
-a.a13:link, a.a13:visited, a.a13:active,
-a.a14:link, a.a14:visited, a.a14:active,
-a.a15:link, a.a15:visited, a.a15:active,
+	color: #FF00CC;
+}
+
 a.a16:link, a.a16:visited, a.a16:active,
-a.a17:link, a.a17:visited, a.a17:active {
-	color: #999999;
+a.a15:link, a.a15:visited, a.a15:active,
+a.a14:link, a.a14:visited, a.a14:active,
+a.a13:link, a.a13:visited, a.a13:active,
+a.a12:link, a.a12:visited, a.a12:active,
+a.a11:link, a.a11:visited, a.a11:active,
+a.a10:link, a.a10:visited, a.a10:active,
+a.a9:link, a.a9:visited, a.a9:active,
+a.a8:link, a.a8:visited, a.a8:active,
+a.a7:link, a.a7:visited, a.a7:active,
+a.a6:link, a.a6:visited, a.a6:active,
+a.a5:link, a.a5:visited, a.a5:active,
+a.a4:link, a.a4:visited, a.a4:active,
+a.a3:link, a.a3:visited, a.a3:active,
+a.a2:link, a.a2:visited, a.a2:active,
+a.a1:link, a.a1:visited, a.a1:active,
+a.a0:link, a.a0:visited, a.a0:active {
 	text-decoration: none;
-	padding: 0 3px 0 0;
-	}
-a.a1:hover {
+	padding:4px;
+	line-height:20px;
+}
+	
+
+	
+	
+	
+a.a16:hover {
 	color: #FF66CC;
 	background-color: #FFF5FD;
-	}
-a.a2:hover {
+}
+a.a15:hover {
 	color: #FF66CC;
 	background-color: #FFE8FA;
-	}
-a.a3:hover {
+}
+a.a14:hover {
 	color: #FF66CC;
 	background-color: #FFDDF8;
-	}
-a.a4:hover {
+}
+a.a13:hover {
 	color: #FF66CC;
 	background-color: #FFCDF5;
-	}
-a.a5:hover {
-	color: #FFFFFF;
-	background-color: #FFBAF1;
-	}
-a.a6:hover {
-	color: #FFFFFF;
-	background-color: #FFABEE;
-	}
-a.a7:hover {
-	color: #FFFFFF;
-	background-color: #FF98EA;
-	}
-a.a8:hover {
-	color: #FFFFFF;
-	background-color: #FF80E6;
-	}
-a.a9:hover {
-	color: #FFFFFF;
-	background-color: #FF73E3;
-	}
-a.a10:hover {
-	color: #FFFFFF;
-	background-color: #FF5CDF;
-	}
-a.a11:hover {
-	color: #FFFFFF;
-	background-color: #FF4BDB;
-	}
+}
 a.a12:hover {
 	color: #FFFFFF;
+	background-color: #FFBAF1;
+}
+a.a11:hover {
+	color: #FFFFFF;
+	background-color: #FFABEE;
+}
+a.a10:hover {
+	color: #FFFFFF;
+	background-color: #FF98EA;
+}
+a.a9:hover {
+	color: #FFFFFF;
+	background-color: #FF80E6;
+}
+a.a8:hover {
+	color: #FFFFFF;
+	background-color: #FF73E3;
+}
+a.a7:hover {
+	color: #FFFFFF;
+	background-color: #FF5CDF;
+}
+a.a6:hover {
+	color: #FFFFFF;
+	background-color: #FF4BDB;
+}
+a.a5:hover {
+	color: #FFFFFF;
 	background-color: #FF39D8;
-	}
-a.a13:hover {
+}
+a.a4:hover {
 	color: #FFFFFF;
 	background-color: #FF29D4;
-	}
-a.a14:hover {
+}
+a.a3:hover {
 	color: #FFFFFF;
 	background-color: #FF1CD2;
-	}
-a.a15:hover {
+}
+a.a2:hover {
 	color: #FFFFFF;
 	background-color: #FF0ECF;
-	}
-a.a16:hover {
+}
+a.a1:hover {
 	color: #FFFFFF;
 	background-color: #FF03CD;
-	}
-a.a17:hover {
+}
+a.a0:hover {
 	color: #FFFFFF;
 	background-color: #FF00CC;
-	}
-img {
-	border: 1px solid #999999;
-	padding: 0;
-	margin: 0;
-	display:block;
-	}
-img.at {
-	border: 0;
-	padding: 0;
-	margin: 0;
-	display:inline;
-	}
+}
+
 
