@@ -77,15 +77,27 @@
 				data.animationOnn = true;
 				
 				if(data.previousArticle !== null) {
-					//$("#a_"+data.previousArticle).fadeToggle(data.testDuration,data.easeType);
-					$("#a_"+data.previousArticle).fadeToggle(0);
+					$("#a_"+data.previousArticle).fadeToggle(data.testDuration,data.easeType);
 				}
 				$("#a_"+data.currentArticle).fadeToggle(data.testDuration,data.easeType,
 					function() {
 						data.previousArticle = data.currentArticle;
 						data.animationOnn = false;
+						
 					}
 				);
+
+				if($("#fanta_banner").filter(":visible").length !== 0 && $("#fanta_banner").parent().index() == data.currentArticle) {
+					$("#fanta_banner").articles('fanta_banner');
+				}
+
+				if($("#cartoon").filter(":visible").length !== 0 && $("#cartoon").parent().index() == data.currentArticle) {
+					$("#cartoon").articles('cartoon');
+				}
+				
+				if($("#miralab").filter(":visible").length !== 0 && $("#miralab").parent().parent().index() == data.currentArticle) {
+					$("#miralab").articles('miralab');
+				}
 				
 			});
 		}// showArticle

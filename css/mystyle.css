@@ -24,16 +24,44 @@ aside nav {
 	margin:20px 0;
 }
 
+h3{
+	text-decoration:underline;
+	font-weight:normal;
+	margin-top:5px;
+}
+
 #main article {
 	position:absolute;
 	display:none;
 	width:60%;
 }
 
+#main article header {
+	margin-bottom: 20px;
+}
+
+#fanta_banner {
+	position:relative;
+	z-index:-1;
+	margin-top:10px;
+}
+
+#main article p.fanta_video {
+	position:relative;
+	top:-310px;
+}
+
+#main article ul{
+	margin:10px 12px;
+}
+#main article p{
+	margin:10px 0;
+}
+
 em {
 	background-color:#FCF;
 	border-radius: 3px;
-	padding: 1px 3px;
+	padding: 0 3px 0 2px;
 }
 
 img {
