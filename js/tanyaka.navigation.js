@@ -76,9 +76,12 @@
 				
 				data.animationOnn = true;
 				
+				//hide previous article
 				if(data.previousArticle !== null) {
 					$("#a_"+data.previousArticle).fadeToggle(data.testDuration,data.easeType);
 				}
+				
+				//show new article
 				$("#a_"+data.currentArticle).fadeToggle(data.testDuration,data.easeType,
 					function() {
 						data.previousArticle = data.currentArticle;
@@ -87,6 +90,7 @@
 					}
 				);
 
+				//embed flash
 				if($("#fanta_banner").filter(":visible").length !== 0 && $("#fanta_banner").parent().index() == data.currentArticle) {
 					$("#fanta_banner").articles('fanta_banner');
 				}
@@ -99,9 +103,30 @@
 					$("#miralab").articles('miralab');
 				}
 				
+				//change video source
+				if($("#csol_video").filter(":visible").length !== 0 && $("#csol_video").parent().index() == data.currentArticle) {
+					$("#csol_video").articles('videoUpdate', 'CokeSideOfLife');
+					
+				}
+				
+				if($("#faithless_video").filter(":visible").length !== 0 && $("#faithless_video").parent().index() == data.currentArticle) {
+					$("#faithless_video").articles('videoUpdate', 'Coke+Faithless');
+				}
+				
+				
 			});
-		}// showArticle
-
+		},// showArticle
+		
+		/**
+		 * Toggle visibility for selected and previous articles
+		 * 
+		 * @return {jQuery} this
+		 */
+		getData: function() {
+			var $this = $(this),
+				data = $this.data("navigation");
+			return data;
+		}// getData
 		
 	};
 

@@ -40,6 +40,16 @@
 
 <div role="main" class="left" id="main"></div>
 
+<div id="video_conatiner">
+    <div id="video_holder">
+        <video id="video" width="976" height="592" poster="img/gateway.png"  controls>
+            <source src="../tanyaka.net_ver2/videos/Coke+Faithless.mp4" type="video/mp4" /> <!-- MPEG4 for Safari -->
+            <source src="../tanyaka.net_ver2/videos/Coke+Faithless.ogg" type="video/ogg" /> <!-- Ogg Theora for Firefox 3.1b2 -->
+        </video>
+    </div>
+</div>
+
+
 <script src="js/tanyaka.navigation.js"></script>
 <script src="js/tanyaka.articles.js"></script>
 <script>
@@ -48,6 +58,7 @@ $(document).ready(function(){
 	if($("aside nav").length !== 0) {
 		$("aside nav").navigation();
 	};
+
 });
 
 

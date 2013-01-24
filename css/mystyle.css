@@ -58,6 +58,23 @@ h3{
 	margin:10px 0;
 }
 
+#video_conatiner {
+	width: 100%;
+	height:100%;
+	position:absolute;
+	background-color:#FFF,
+	top:0;
+	right:0;
+	display:none;
+}
+#video_holder{
+	margin:0 auto;
+	width:972px;
+	padding:10px;
+	background-color:#999;
+
+}
+
 em {
 	background-color:#FCF;
 	border-radius: 3px;

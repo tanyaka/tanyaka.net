@@ -1,7 +1,7 @@
 [
 	{
 	"navi": "kaufDA.de",
-	"navi_icon_hex": "&alefsym;",
+	"navi_icon_hex": "&aelig;",
 	"heading": "<a href=\"http://kaufDA.de\" target=\"_blank\">kaufDA.de</a> is a location-based offer search platform, done by <a href=\"http://www.bonialinternationalgroup.com\" target=\"_blank\">bonialinternationalgroup.com</a>.",
 	"description": "my tasks: front end developement of a new <em>HTML5</em>-brochure-viewer, f.e. responsive toolbar on the top and different content menu.<br/>techniques: <em>JS</em>, <em>JQUERY</em>, <em>SCSS</em>, <em>groovy/grails</em>. to see an exmaple, go to <a href=\"http://kaufDA.de\" target=\"_blank\">kaufDA.de</a> and open any brochure."
 	},
@@ -15,106 +15,99 @@
 	
 	{
 	"navi": "peganova.de",
-	"navi_icon_hex": "&upsih;",
+	"navi_icon_hex": "&omega;",
 	"heading": "<a href=\"http://www.peganova.de\" target=\"_blank\">peganova.de</a>. photography, portfolio.",
 	"description": "private project. design, programming. techniques: <em>Flash</em>, <em>AS3</em>, <em>XML</em>."
 	},
 
 	{	
 	"navi": "jackholden.org",
-	"navi_icon_hex": "&upsih;",
+	"navi_icon_hex": "&cent;",
 	"heading": "<a href=\"http://www.jackholden.org\" target=\"_blank\">jackholden.org</a>. artist, portfolio.",
 	"description": "private project. design, programming. techniques: <em>Flash</em>, <em>AS3</em>, <em>XML</em>."
 	},
 	
 	{
 	"navi": "apollinaris",
-	"navi_icon_hex": "&upsih;",
+	"navi_icon_hex": "&omicron;",
 	"heading": "<a href=\"http://www.apollinaris.de/de_de/\" target=\"_blank\">apollinaris.de</a>, german website of apollinaris mineral water products. done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>.",
 	"description": "<em>Flex</em>/<em>Flash</em> project with <em>pureMVC</em> framework. my tasks: program and animate numerous content pages and meta navigation."
 	},
 	
 	{
 	"navi": "CokeFridge",
-	"navi_icon_hex": "&upsih;",
+	"navi_icon_hex": "&amp;",
 	"heading": "<a href=\"http://www.CokeFridge.de\" target=\"_blank\">CokeFridge.de</a> is a coke portal to win prizes from coke partners by participating in actual promotion. you can create your CokeFridge account, collect codes from coca-cola bottle caps, transform them in coke-coins and participate in a promotion. done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>.",
 	"description": "<em>Flex</em> project with <em>Flash</em> elements and <em>pureMVC</em> framework. promotins are independant <em>Flash</em>-applications. my tasks: programm complete meta navigation with ist content and numerous promotions."
 	},
 	
 	{
 	"navi": "coke santa gift service",
-	"navi_icon_hex": "&upsih;",
+	"navi_icon_hex": "&loz;",
 	"heading": "Coke Christmas Gift Service application for facebook. you can customize and send your facebook friends a greeting for xmass 2009: choose a card, gift, wrapping-papper and write a personal message. done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>.",
 	"description": "<em>Flash</em> project with <em>pureMVC</em> framework. my tasks: create the <em>flash</em> <em>frontend</em> and integrate it with <em>facebook api</em>. the project is offline, watch the <a href=\"version2/facebook.html\" target=\"_blank\">video</a> of it."
 	},
 	
 	{
 	"navi": "fanta global kit",
-	"navi_icon_hex": "&upsih;",
+	"navi_icon_hex": "&Theta;",
 	"heading": "fanta global toolkit, part of  \"fantarize the world\" campaign of fanta international containing online games, flash banners, screensaver and rington creator. done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>. received a online star finalist award, <a href=\"http://www.onlinestar.de/\" target=\"_blank\">onlinestar.de</a>, ADC Global merit award, <a href=\"http://adcglobal.org\" target=\"_blank\">adcglobal.org</a> and others.",
 	"description": "<p><em>Flash</em> <em>AS2</em> project. my tasks: program level \"the tower\" and animate the banner:</p><div id=\"fanta_banner\">&nbsp;</div><p class=\"fanta_video\">the project is offline, watch the <a href=\"version2/fanta.html\" target=\"_blank\">video</a> of \"the tower\" level (online game)</p>"
 	},
 	
 	{
 	"navi": "coke side of life",
-	"navi_icon_hex": "&upsih;",
+	"navi_icon_hex": "&curren;",
 	"heading": "cokesideoflife.de, the markwebsite of red coke with a lot of promotional content, e.i. Coca Cola Soundwave Discovery tour, Football, a.s.w. done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>. received a DDP - Silver award in 2007, <a href=\"http://www.ddp-award.de\" target=\"_blank\">ddp-award.de</a>.",
-	"description": "<em>Flash</em> <em>AS2</em> project. my tasks: program the new flash content, maintain the framework. the project is offline, watch the <a href=\"version2/cokesideoflife.html\" target=\"_blank\">video</a> of it."
+	"description": "<em>Flash</em> <em>AS2</em> project. my tasks: program the new flash content, maintain the framework. the project is offline, watch the <a href=\"#\" id=\"csol_video\" class=\"video_btn\">video</a> of it."
 	},
 	
 	{
 	"navi": "coke gateway",
-	"navi_icon_hex": "&upsih;",
+	"navi_icon_hex": "&alefsym;",
 	"heading": "<a href=\"http://www.coke.de\" target=\"_blank\">coke.de</a>, the gateway to the world of products of Coca-Cola done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>.",
-	"description": "<em>Flash</em> <em>AS2</em> project. my tasks: maintain the flash content. the project is offline, watch the <a href=\"version2/gateway.html\" target=\"_blank\">video</a> of it."
+	"description": "<em>Flash</em> <em>AS2</em> project. my tasks: maintain the flash content. the project is offline, watch the <a href=\"#\" id=\"gateway_video\" class=\"video_btn\">video</a> of it."
 	},
 	
 	
 	{
 	"navi": "coke + fathless",
-	"navi_icon_hex": "&upsih;",
+	"navi_icon_hex": "&micro;",
 	"heading": "coke-faithless.com, coke flash microsite to promote their new bottle design. you can explore the bottle by creating your own visual poetry and create your own bottle design by using your built in webcam, microphone, mouse and keyboard all to control the avatar who kindly throws your visual poetry onto the bottle. done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>. received a FWA - Site of the Day 07.06.2007, <a href=\"http://thefwa.com/site/coke-faithless\" target=\"_blank\">thefwa.com/site/coke-faithless</a>, DDC Gold 2007, <a href=\"http://ddc.de\" target=\"_blank\">ddc.de</a> and many others",
-	"description": "<em>Flash</em> <em>AS2</em> project. my tasks: my tasks: program the option-menu animation and the page about videoartists. the project is offline, watch the <a href=\"version2/faithless.html\" target=\"_blank\">video</a> of it."
+	"description": "<em>Flash</em> <em>AS2</em> project. my tasks: my tasks: program the option-menu animation and the page about videoartists. the project is offline, watch the <a href=\"#\" id=\"faithless_video\" class=\"video_btn\">video</a> of it."
 	},
 	
 	{
 	"navi": "susuru",
-	"navi_icon_hex": "&upsih;",
+	"navi_icon_hex": "&zeta;",
 	"heading": "<a href=\"http://www.susuru.de\" target=\"_blank\">susuru.de</a>, japanese noodle bar.",
 	"description": "private project. fair draughting, programming. techniques: <em>Flash</em>, <em>HTML</em>, <em>CSS</em>."
 	},
 	
 	{
 	"navi": "brotundspiele",
-	"navi_icon_hex": "&upsih;",
+	"navi_icon_hex": "&oslash;",
 	"heading": "<a href=\"http://brotundspiele.eu/\" target=\"_blank\">brotundspiele.eu</a>, spreadshirt online-shop",
 	"description": "private project. fair draughting, programming. techniques: <em>Flash</em>, <em>HTML</em>, <em>CSS</em>, <em>JavaScript</em>."
 	},
 	
 	{
 	"navi": "irma's cv",
-	"navi_icon_hex": "&upsih;",
+	"navi_icon_hex": "&times;",
 	"heading": "<a href=\"http://lisweb.de\" target=\"_blank\">lisweb.de</a>, computer sciences, web-page.",
 	"description": "private project. design, programming. techniques: <em>HTML</em>, <em>CSS</em>, <em>JavaScript</em>."
 	},
 	
 	{
 	"navi": "miralab",
-	"navi_icon_hex": "&upsih;",
-	"heading":"<div id=\"miralab\">&nbsp;</div><p>screenshots 1 2 3 4</p><p>Restructuring of the <a href=\"http://www.miralab.ch/\" target=\"_blank\">MIRALab</a>'s intranet<br/>University of Geneva, 2004<br/>Faculty of Economics and Social Sciences<br/>Postgraduate DEA in \"Communication and Media Studies\"</p>",
+	"navi_icon_hex": "&euro;",
+	"heading":"<div id=\"miralab\">&nbsp;</div><!--p>screenshots 1 2 3 4</p--><p>Restructuring of the <a href=\"http://www.miralab.ch/\" target=\"_blank\">MIRALab</a>'s intranet<br/>University of Geneva, 2004<br/>Faculty of Economics and Social Sciences<br/>Postgraduate DEA in \"Communication and Media Studies\"</p>",
 	"description": "<h2>General description</h2><h3>1. Main objective</h3><p>Develop a new version of the <a href=\"http://www.miralab.ch/\" target=\"_blank\">MIRALab</a>'s intranet according to the new <em>ColdFusion</em> dynamic technologies. Integrate the old intranet's contents with the new database contents and develop new tools to take advantage of this dynamicity.</p><h3>2. Technical purposes and goals</h3><ul><li>Create a new design of INTRANET and integrate it with a technical structure, that can be easily be updated, programmed with <em>ColdFusion</em> and linked to databases, developed in <em>HTML</em> + .cfm templates.</li><li>Show all the necessary private information about the staff of <a href=\"http://www.miralab.ch/\" target=\"_blank\">MIRALab</a> and provide a possibility to update it directly via the website.</li><li>Create a 'questions and answers' section founded on a database and equipped with a search tool. Users may keep it up to date by adding their own records and modifying the given ones.</li><li>Create several small and integrated web-based applications that will allow the user to update some sections.</li></ul><h3>3. Programming languages used</h3><ul><li>Basic <em>HTML</em></li><li><em>ColdFusion</em></li><li><em>SQL</em></li></ul><h3>4. Programs used</h3><ul><li><em>Dreamweaver MX</em></li><li><em>Flash MX</em></li><li><em>Access</em></li><li><em>MySQL database</em></li></ul>"
 	},
 	
 	{
 	"navi": "cartoon about light in cg",
-	"navi_icon_hex": "&upsih;",
-	"heading": "small cartoon i did for a <em>flash</em> cours during my studing in miralab.",
-	"description": "<div id=\"cartoon\">&nbsp;</div><p>click the play button to continue! :-)</p>"
-	},
-	
-	{
-	"navi": "cartoon about light in cg",
-	"navi_icon_hex": "&upsih;",
+	"navi_icon_hex": "&ETH;",
 	"heading": "small cartoon i did for a <em>flash</em> cours during my studing in miralab.",
 	"description": "<div id=\"cartoon\">&nbsp;</div><p>click the play button to continue! :-)</p>"
 	}

@@ -20,8 +20,7 @@
 		 */
 		fanta_banner: function(options) {
 			return this.each(function() {
-				var $this = $(this),
-					flashvars = {},
+				var flashvars = {},
 					params = {wmode:"transparent"},
 					attributes = {};
 		
@@ -31,17 +30,41 @@
 		
 		cartoon: function(options) {
 			return this.each(function() {
-				var $this = $(this);
 				swfobject.embedSWF("swf/light.swf", "cartoon", "600", "300", "9.0.0", "swf/expressInstall.swf");
 			});
 		}, // cartoon
 		
 		miralab: function(options) {
 			return this.each(function() {
-				var $this = $(this);
 				swfobject.embedSWF("swf/mira.swf", "miralab", "368", "62", "9.0.0", "swf/expressInstall.swf");
 			});
 		}, // miralab
+
+		
+		videoUpdate: function(videoName) {
+			return this.each(function() {
+				
+				
+				
+				
+				var player = document.getElementById('video');
+				player.pause();
+				
+				$('video source').filter(function (index) {return $(this).attr("type") == "video/mp4";}).attr('src', '../tanyaka.net_ver2/videos/'+videoName+'.mp4');
+				$('video source').filter(function (index) {return $(this).attr("type") == "video/ogg";}).attr('src', '../tanyaka.net_ver2/videos/'+videoName+'.ogg');
+
+				player.load();
+			    //player.play();
+				
+				$(this).bind("click", function(event) {
+					event.preventDefault();
+					var data = $("aside nav").navigation('getData');
+					$("#video_conatiner").fadeIn(data.testDuration, data.easeType);
+				});
+
+			});
+		} // videoUpdate
+		
 		
 		
 	};
