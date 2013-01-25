@@ -41,20 +41,21 @@
 		}, // miralab
 
 		
-		videoUpdate: function(videoName) {
+		videoUpdate: function(videoName, videoW, videoH) {
 			return this.each(function() {
-				
-				
-				
-				
-				var player = document.getElementById('video');
+				var player = document.getElementById('video'), 
+					margingTop;
 				player.pause();
 				
-				$('video source').filter(function (index) {return $(this).attr("type") == "video/mp4";}).attr('src', '../tanyaka.net_ver2/videos/'+videoName+'.mp4');
-				$('video source').filter(function (index) {return $(this).attr("type") == "video/ogg";}).attr('src', '../tanyaka.net_ver2/videos/'+videoName+'.ogg');
+				$('video source').filter(function (index) {return $(this).attr("type") == "video/mp4";}).attr('src', '../version2/videos/'+videoName+'.mp4');
+				$('video source').filter(function (index) {return $(this).attr("type") == "video/ogg";}).attr('src', '../version2/videos/'+videoName+'.ogg');
+				$('#video_holder').width(videoW+40);
+				$('#video_holder').height(videoH);
+				margingTop =  Math.round(($(window).height()-videoH - parseInt($('#video_holder').css('padding-top').replace("px", "")) - parseInt($('#video_holder').css('padding-bottom').replace("px", "")))/2);
+				$('#video_holder').css('margin-top',margingTop+'px');
 
 				player.load();
-			    //player.play();
+			    player.play();
 				
 				$(this).bind("click", function(event) {
 					event.preventDefault();

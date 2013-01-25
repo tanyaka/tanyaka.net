@@ -45,14 +45,14 @@
 	"navi": "coke santa gift service",
 	"navi_icon_hex": "&loz;",
 	"heading": "Coke Christmas Gift Service application for facebook. you can customize and send your facebook friends a greeting for xmass 2009: choose a card, gift, wrapping-papper and write a personal message. done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>.",
-	"description": "<em>Flash</em> project with <em>pureMVC</em> framework. my tasks: create the <em>flash</em> <em>frontend</em> and integrate it with <em>facebook api</em>. the project is offline, watch the <a href=\"version2/facebook.html\" target=\"_blank\">video</a> of it."
+	"description": "<em>Flash</em> project with <em>pureMVC</em> framework. my tasks: create the <em>flash</em> <em>frontend</em> and integrate it with <em>facebook api</em>. the project is offline, watch the <a href=\"#\" id=\"facebook_video\" class=\"video_btn\">video</a> of it."
 	},
 	
 	{
 	"navi": "fanta global kit",
 	"navi_icon_hex": "&Theta;",
 	"heading": "fanta global toolkit, part of  \"fantarize the world\" campaign of fanta international containing online games, flash banners, screensaver and rington creator. done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>. received a online star finalist award, <a href=\"http://www.onlinestar.de/\" target=\"_blank\">onlinestar.de</a>, ADC Global merit award, <a href=\"http://adcglobal.org\" target=\"_blank\">adcglobal.org</a> and others.",
-	"description": "<p><em>Flash</em> <em>AS2</em> project. my tasks: program level \"the tower\" and animate the banner:</p><div id=\"fanta_banner\">&nbsp;</div><p class=\"fanta_video\">the project is offline, watch the <a href=\"version2/fanta.html\" target=\"_blank\">video</a> of \"the tower\" level (online game)</p>"
+	"description": "<p><em>Flash</em> <em>AS2</em> project. my tasks: program level \"the tower\" and animate the banner:</p><div id=\"fanta_banner\">&nbsp;</div><p class=\"fanta_video\">the project is offline, watch the <a href=\"#\" id=\"fantarize_video\" class=\"video_btn\">video</a> of \"the tower\" level (online game).</p>"
 	},
 	
 	{

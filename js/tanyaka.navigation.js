@@ -105,12 +105,24 @@
 				
 				//change video source
 				if($("#csol_video").filter(":visible").length !== 0 && $("#csol_video").parent().index() == data.currentArticle) {
-					$("#csol_video").articles('videoUpdate', 'CokeSideOfLife');
+					$("#csol_video").articles('videoUpdate', 'CokeSideOfLife', 1008, 576);
 					
 				}
 				
 				if($("#faithless_video").filter(":visible").length !== 0 && $("#faithless_video").parent().index() == data.currentArticle) {
-					$("#faithless_video").articles('videoUpdate', 'Coke+Faithless');
+					$("#faithless_video").articles('videoUpdate', 'Coke+Faithless', 976, 592);
+				}
+				
+				if($("#facebook_video").filter(":visible").length !== 0 && $("#facebook_video").parent().index() == data.currentArticle) {
+					$("#facebook_video").articles('videoUpdate', 'facebook', 672, 640);
+				}
+				
+				if($("#fantarize_video").filter(":visible").length !== 0 && $("#fantarize_video").parent().parent().index() == data.currentArticle) {
+					$("#fantarize_video").articles('videoUpdate', 'fantarize', 896, 448);
+				}
+				
+				if($("#gateway_video").filter(":visible").length !== 0 && $("#gateway_video").parent().index() == data.currentArticle) {
+					$("#gateway_video").articles('videoUpdate', 'CokeGateway', 1120, 592);
 				}
 				
 				
