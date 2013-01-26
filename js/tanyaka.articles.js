@@ -47,7 +47,7 @@
 					margingTop;
 				player.pause();
 				
-				$('video source').filter(function (index) {return $(this).attr("type") == "video/mp4";}).attr('src', '../version2/videos/'+videoName+'.mp4');
+				$('video source').filter(function (index) {return $(this).attr("type") == "video/mp4";}).attr('src', '../version2/videos/'+videoName+'.mp4');//tanyaka.net_ver2
 				$('video source').filter(function (index) {return $(this).attr("type") == "video/ogg";}).attr('src', '../version2/videos/'+videoName+'.ogg');
 				$('#video_holder').width(videoW+40);
 				$('#video_holder').height(videoH);

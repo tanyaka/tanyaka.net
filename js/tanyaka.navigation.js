@@ -78,12 +78,14 @@
 				
 				//hide previous article
 				if(data.previousArticle !== null) {
+					$('#main_nav li:nth-child('+(data.previousArticle+1)+') a').removeClass('current', {duration:data.testDuration});
 					$("#a_"+data.previousArticle).fadeToggle(data.testDuration,data.easeType);
 				}
 				
 				//show new article
 				$("#a_"+data.currentArticle).fadeToggle(data.testDuration,data.easeType,
 					function() {
+						$('#main_nav li:nth-child('+(data.currentArticle+1)+') a').addClass('current');
 						data.previousArticle = data.currentArticle;
 						data.animationOnn = false;
 						
