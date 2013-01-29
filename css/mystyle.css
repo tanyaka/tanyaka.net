@@ -5,7 +5,7 @@ body {
 	letter-spacing: 0px;
 	font-size: 11px;
 	line-height: 16px;
-	color: #999999;
+	color: #777;
 	margin: 50px;
 }
 
@@ -118,7 +118,7 @@ img.at {
 }
 
 a:link, a:visited, a:active {
-	color: #999999;
+	color: #777;
 	text-decoration: underline;
 	padding: 0;
 }
@@ -146,6 +146,7 @@ a.a0:link, a.a0:visited, a.a0:active {
 	text-decoration: none;
 	padding:4px;
 	line-height:21px;
+	border-radius: 1px;
 }
 	
 
