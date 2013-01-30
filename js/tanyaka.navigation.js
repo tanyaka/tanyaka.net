@@ -78,7 +78,7 @@
 				
 				//hide previous article
 				if(data.previousArticle !== null) {
-					$('#main_nav li:nth-child('+(data.previousArticle+1)+') a').removeClass('current', {duration:data.testDuration});
+					$('#main_nav li:nth-child('+(data.previousArticle+1)+') a').removeClass('current', {duration:data.testDuration/2});
 					$("#a_"+data.previousArticle).fadeToggle(data.testDuration,data.easeType);
 					
 				}

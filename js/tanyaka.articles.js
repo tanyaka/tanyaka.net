@@ -47,7 +47,7 @@
 					margingTop;
 				//player.pause();
 				
-				//$('video source').filter(function (index) {return $(this).attr("type") == "video/mp4";}).attr('src', '../version2/videos/'+videoName+'.mp4');//tanyaka.net_ver2
+				//$('video source').filter(function (index) {return $(this).attr("type") == "video/mp4";}).attr('src', '../version2/videos/'+videoName+'.mp4');
 				//$('video source').filter(function (index) {return $(this).attr("type") == "video/ogg";}).attr('src', '../version2/videos/'+videoName+'.ogg');
 				
 				player.innerHTML = '';
@@ -68,28 +68,27 @@
 				player.load();
 			    //player.play();*/
 				
-				
-				
+				//tanyaka.net_ver2 version2
 				$(this).bind("click", function(event) {
 					event.preventDefault();
-
+				
 					
-					var video = $('<video id="video" width="'+videoW+'" height="'+videoH+'" controls autoplay poster="img/v500.gif">'+
-						'<source src="../version2/videos/'+videoName+'.mp4" type="video/mp4">'+
-						'<source src="../version2/videos/'+videoName+'.ogg" type="video/ogg">'+
+					var video = $('<video id="video" width="'+videoW+'" height="'+videoH+'" preload controls autoplay">'+
+						'<source src="../tanyaka.net_ver2/videos/'+videoName+'.mp4" type="video/mp4">'+
+						'<source src="../tanyaka.net_ver2/videos/'+videoName+'.ogg" type="video/ogg">'+
 						'Your browser does not support the video tag.'+
 					'</video>');
 	
-					$(video).appendTo($('#video_place'));
+					$(video).appendTo($('#video_holder'));
 					
 					var data = $("aside nav").navigation('getData');
 //					if (window.console) console.log("video ", $("#video_conatiner video"), $("#video_conatiner video").length);
-					$("#video_conatiner").fadeIn(data.testDuration, data.easeType);
+					$("#video_conatiner_outer").fadeIn(data.testDuration, data.easeType);
 				});
 				
 				$('#close_btn').bind("click", function(event) {
 					$('#video').remove();
-					$('#video_conatiner').fadeOut(0);
+					$('#video_conatiner_outer').fadeOut(0);
 				});	
 			});
 		} // videoUpdate
