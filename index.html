@@ -39,10 +39,13 @@
 <div role="main" class="left" id="main"></div>
 
 <div id="video_conatiner_outer">
-    <div id="video_conatiner_inner">
-    	<div id="video_holder">
-        </div>
-        <div id="close_btn">[x]</div>
+	<div id="video_conatiner_inner">
+        <video width="976" height="592" controls preload>
+            <source src="../version2/videos/Coke+Faithless.mp4" type="video/mp4">
+            <source src="../version2/videos/Coke+Faithless.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+        <div id="close_btn">[x]<br> </div>
     </div>
 </div>
 
@@ -55,9 +58,17 @@
 <script>
 
 $(document).ready(function(){
+	
 	if($("aside nav").length !== 0) {
 		$("aside nav").navigation();
 	};
+	
+	$('#close_btn').bind("click", function(event) {
+		event.preventDefault();
+		document.getElementsByTagName('video')[0].pause();
+		$('#video_conatiner_outer').fadeOut();
+	});
+	
 });
 
 

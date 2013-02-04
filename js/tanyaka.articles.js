@@ -43,53 +43,14 @@
 		
 		videoUpdate: function(videoName, videoW, videoH) {
 			return this.each(function() {
-				/*var player = document.getElementById('video'), 
-					margingTop;
+				$('video source').filter(function (index) {return $(this).attr("type") == "video/mp4";}).attr('src', '../version2/videos/'+videoName+'.mp4');
+				$('video source').filter(function (index) {return $(this).attr("type") == "video/ogg";}).attr('src', '../version2/videos/'+videoName+'.ogg');
+				
+				var player = document.getElementsByTagName('video')[0];
+				
+				player.load();
 				//player.pause();
-				
-				//$('video source').filter(function (index) {return $(this).attr("type") == "video/mp4";}).attr('src', '../version2/videos/'+videoName+'.mp4');
-				//$('video source').filter(function (index) {return $(this).attr("type") == "video/ogg";}).attr('src', '../version2/videos/'+videoName+'.ogg');
-				
-				player.innerHTML = '';
-				player.innerHTML = '<source src="../version2/videos/"+videoName+".mp4" type="video.mp4">';
-				player.innerHTML += '<source src="../version2/videos/"+videoName+".ogg" type="video/webm">';
-				player.load();
-				
-				
-				$('#video_holder').width(videoW+40);
-				$('#video_holder').height(videoH);
-				
-				$(player).width(videoW);
-				$(player).height(videoH);
-				
-				//margingTop =  Math.round(($(window).height()-videoH - parseInt($('#video_holder').css('padding-top').replace("px", "")) - parseInt($('#video_holder').css('padding-bottom').replace("px", "")))/2);
-				//$('#video_holder').css('margin-top',margingTop+'px');
 
-				player.load();
-			    //player.play();*/
-				
-				//tanyaka.net_ver2 version2
-				$(this).bind("click", function(event) {
-					event.preventDefault();
-				
-					
-					var video = $('<video id="video" width="'+videoW+'" height="'+videoH+'" preload controls autoplay">'+
-						'<source src="../tanyaka.net_ver2/videos/'+videoName+'.mp4" type="video/mp4">'+
-						'<source src="../tanyaka.net_ver2/videos/'+videoName+'.ogg" type="video/ogg">'+
-						'Your browser does not support the video tag.'+
-					'</video>');
-	
-					$(video).appendTo($('#video_holder'));
-					
-					var data = $("aside nav").navigation('getData');
-//					if (window.console) console.log("video ", $("#video_conatiner video"), $("#video_conatiner video").length);
-					$("#video_conatiner_outer").fadeIn(data.testDuration, data.easeType);
-				});
-				
-				$('#close_btn').bind("click", function(event) {
-					$('#video').remove();
-					$('#video_conatiner_outer').fadeOut(0);
-				});	
 			});
 		} // videoUpdate
 		

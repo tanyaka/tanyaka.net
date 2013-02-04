@@ -65,20 +65,19 @@ h3{
 	background-color:#FFF;
 	top:0;
 	right:0;
-	display:none;
-
+	display:none;/**/
 }
+
 #video_conatiner_inner {
 	margin:0 auto;
 }
-#video_holder {
-	margin: 3px 7px 0 0;
-	float:left;
-}
+
 
 video {
+	float:left;
+	margin: 3px 7px 0 0;
+
 	background-color:#CCC;
-	
 	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 	-opera-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);

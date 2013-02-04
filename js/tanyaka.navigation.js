@@ -48,7 +48,7 @@
 					$(articles).appendTo('#main');
 					
 					// bind click to collection browser links
-					$("#main_nav a").bind("click", function(event) {
+					$("#main_nav a").on("click", function(event) {
 						event.preventDefault();
 						var temp = $("#main_nav li").index($(this).parent("li"));
 						
@@ -57,6 +57,18 @@
 							$this.navigation('showArticle', data.currentArticle);
 						}
 					});
+
+					//show video layer				
+					$('.video_btn').on("click", function(event) {
+						event.preventDefault();
+						if($.browser.msie) {
+							var vidObj = document.getElementsByTagName('video')[0];	
+							vidObj.currentTime = vidObj.currentTime > 0 ? vidObj.currentTime : 0.1;
+						}
+						$("#video_conatiner_outer").fadeIn();
+					});
+					
+
 				})
 				.error(function() { 
 					$('<error>load json error</error>').appendTo('#main_nav');
