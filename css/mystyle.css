@@ -5,9 +5,36 @@ body {
 	letter-spacing: 0px;
 	font-size: 11px;
 	line-height: 16px;
-	color: #777;
-	margin: 50px;
+	color: #FFF;
+/*	padding: 50px;*/
 }
+
+.wrapper {
+	
+	grün-rosa
+	background-image: linear-gradient(left top, #95BA00 0%, #FFA1FF 100%);
+	background-image: -o-linear-gradient(left top, #95BA00 0%, #FFA1FF 100%);
+	background-image: -moz-linear-gradient(left top, #95BA00 0%, #FFA1FF 100%);
+	background-image: -webkit-linear-gradient(left top, #95BA00 0%, #FFA1FF 100%);
+	background-image: -ms-linear-gradient(left top, #95BA00 0%, #FFA1FF 100%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		right bottom,
+		color-stop(0, #95BA00),
+		color-stop(1, #FFA1FF)
+	);
+	
+  	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#95BA00', endColorstr='#FFA1FF',GradientType=0 );
+
+	width: 100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	right:0;
+}
+
 
 address {
 	font-style:normal;
@@ -17,7 +44,8 @@ address {
 aside {
 	width:30%;
 	max-width:400px;
-	padding: 0 50px 0 0;
+	margin:50px 50px 0 50px;
+/*	padding: 0 50px 0 0;*/
 }
 
 aside nav {
@@ -28,6 +56,10 @@ h3{
 	text-decoration:underline;
 	font-weight:normal;
 	margin-top:5px;
+}
+
+#main {
+	margin: 50px 0 0 0;
 }
 
 #main article {
@@ -42,8 +74,9 @@ h3{
 
 #fanta_banner {
 	position:relative;
-	z-index:-1;
+	/*z-index:-1;*/
 	margin-top:10px;
+	/*display:none;*/
 }
 
 #main article p.fanta_video {
@@ -59,13 +92,7 @@ h3{
 }
 
 #video_conatiner_outer {
-	width: 100%;
-	height:100%;
-	position:absolute;
-	background-color:#FFF;
-	top:0;
-	right:0;
-	display:none;/**/
+	display:none;
 }
 
 #video_conatiner_inner {
@@ -74,8 +101,7 @@ h3{
 
 
 video {
-	float:left;
-	margin: 3px 7px 0 0;
+	margin-top: 2px;
 
 	background-color:#CCC;
 	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
@@ -85,18 +111,21 @@ video {
 }
 
 #close_btn {
+	margin-left: 3px;
+	
 	cursor:pointer;
 	display:block;
-	color:#CCC;
+	color:#ccc;
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:14px;
-	text-shadow: 1px 1px 2px #aaa;
+	text-shadow: 1px 1px 3px #bbb;
 }
 
 em {
 	background-color:#FCF;
 	border-radius: 3px;
 	padding: 0 3px 0 2px;
+	color: #FF03CD;
 }
 
 img {
@@ -114,11 +143,15 @@ img.at {
 }
 
 .left {
-	float:left;
+	float: left;
+}
+
+.right {
+	float: right;
 }
 
 a:link, a:visited, a:active {
-	color: #777;
+	color: #FFF;
 	text-decoration: underline;
 	padding: 0;
 }

@@ -93,6 +93,7 @@
 					$('#main_nav li:nth-child('+(data.previousArticle+1)+') a').removeClass('current', {duration:data.testDuration/2});
 					$("#a_"+data.previousArticle).fadeToggle(data.testDuration,data.easeType);
 					
+					
 				}
 				
 				//show new article

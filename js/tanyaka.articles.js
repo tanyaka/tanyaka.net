@@ -43,14 +43,47 @@
 		
 		videoUpdate: function(videoName, videoW, videoH) {
 			return this.each(function() {
-				$('video source').filter(function (index) {return $(this).attr("type") == "video/mp4";}).attr('src', '../version2/videos/'+videoName+'.mp4');
-				$('video source').filter(function (index) {return $(this).attr("type") == "video/ogg";}).attr('src', '../version2/videos/'+videoName+'.ogg');
 				
-				var player = document.getElementsByTagName('video')[0];
+				var windowH = $(window).height(),
+					windowW= $(window).width(),
+					newW = 0, newH =0,
+					paddingTop;
+					
+				if(videoW > windowW - 25) {
+					newW = windowW - 25;
+					newH = Math.round(videoH / videoW * newW);
+					if(newH > windowH) {
+						newH = windowH;
+						newW = Math.round(videoW / videoH * newH);
+					}
+				}
 				
-				player.load();
-				//player.pause();
-
+				if(videoH > windowH) {
+					newH = windowH;
+					newW = Math.round(videoW / videoH * newH);
+					if(newW > windowW - 25) {
+						newW = windowW - 25;
+						newH = Math.round(videoH / videoW * newW);
+					}
+				}
+				
+				videoW = newW > 0 ? newW : videoW;
+				videoH = newH > 0 ? newH : videoH;
+				
+				
+				paddingTop = Math.round(0.4*(windowH-videoH));
+				
+				$('#video_conatiner_inner').width(videoW+25);
+				$('#video_conatiner_inner').css('padding-top', paddingTop+'px');
+				
+				$('video').detach();
+			
+				$('<video width="'+videoW+'" height="'+videoH+'" class="right" controls="true" preload="false">'+
+					'<source src="../tanyaka.net_ver2/videos/'+videoName+'.mp4" type="video/mp4">'+
+		            '<source src="../tanyaka.net_ver2/videos/'+videoName+'.ogg" type="video/ogg">'+
+        		    'Your browser does not support the video tag.</video>').appendTo('#video_conatiner_inner');
+			
+				$('video').load();
 			});
 		} // videoUpdate
 		
