@@ -22,27 +22,35 @@
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]--></head>
 
-<body>
-<div class="wrapper">
-<aside class="left">
+<body class="wrapper_body">
+
+<aside class="wrapper_aside left">
     <header role="contentinfo">
-    	hi! here is my portfolio.<br>feel free to take a look at some of my work samples:
+    	tanyaka's work samples:
     </header>
     <nav id="main_nav">.. loading projects ..</nav>
+    
     <section>
     or to find me on <a href="https://www.xing.com/profile/Tatjana_KaschperkoLindt" target="_blank">xing</a>[de] or <a href="http://de.linkedin.com/pub/tatjana-kaschperko-lindt/7/835/164" target="_blank">linkedin</a>[en].
     </section>
-    <address>
-    mail<img src="img/at.gif" class="at">tanyaka.net<br />
-    </address>
+    
+    <footer class="wrapper_footer">
+        <address>
+            <a href="mailto:mail@tanyaka.net">mail@tanyaka.net</a><br />
+        </address>
+    </footer>    
+    
 </aside>
 
 <div role="main" class="left" id="main"></div>
-</div>
 
-<div id="video_conatiner_outer" class="wrapper">
-	<div id="video_conatiner_inner">
-        <div id="close_btn" class="right">[x]</div>
+
+<div id="video_wrapper" class="window">
+    <div id="overlay" class="window"></div>
+    <div id="video_conatiner_outer" class="window">
+        <div id="video_conatiner_inner">
+            <div id="close_btn" class="right">[x]</div>
+        </div>
     </div>
 </div>
 
@@ -60,11 +68,21 @@ $(document).ready(function(){
 		$("aside nav").navigation();
 	};
 	
-	$('#close_btn').bind("click", function(event) {
-		event.preventDefault();
+	$('#close_btn').bind("click", function() {
 		document.getElementsByTagName('video')[0].pause();
-		$('#video_conatiner_outer').fadeOut();
+		$('#video_wrapper').fadeOut();
 	});
+	
+	$('#video_conatiner_outer').bind("click", function(event) {
+		if(event.target === this) {
+			document.getElementsByTagName('video')[0].pause();
+			$('#video_wrapper').fadeOut();
+		}
+	});
+	
+	window.onresize = function() {
+		$("aside nav").navigation('resizeHandler');
+	}
 	
 });
 

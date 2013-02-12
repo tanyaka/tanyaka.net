@@ -79,8 +79,8 @@
 				$('video').detach();
 			
 				$('<video width="'+videoW+'" height="'+videoH+'" class="right" controls="true" preload="false">'+
-					'<source src="../tanyaka.net_ver2/videos/'+videoName+'.mp4" type="video/mp4">'+
-		            '<source src="../tanyaka.net_ver2/videos/'+videoName+'.ogg" type="video/ogg">'+
+					'<source src="../version2/videos/'+videoName+'.mp4" type="video/mp4">'+
+		            '<source src="../version2/videos/'+videoName+'.ogg" type="video/ogg">'+
         		    'Your browser does not support the video tag.</video>').appendTo('#video_conatiner_inner');
 			
 				$('video').load();
