@@ -31,50 +31,50 @@
 	"navi": "apollinaris",
 	"navi_icon_hex": "&omicron;",
 	"heading": "<a href=\"http://www.apollinaris.de/de_de/\" target=\"_blank\">apollinaris.de</a>, german website of apollinaris mineral water products. done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>.",
-	"description": "<em>Flex</em>/<em>Flash</em> project with <em>pureMVC</em> framework. my tasks: program and animate numerous content pages and meta navigation."
+	"description": "<em>Flex</em>/<em>Flash</em> project with <em>pureMVC</em> framework. my tasks: programming and animation of numerous content pages and meta navigation."
 	},
 	
 	{
 	"navi": "CokeFridge",
 	"navi_icon_hex": "&amp;",
 	"heading": "<a href=\"http://www.CokeFridge.de\" target=\"_blank\">CokeFridge.de</a> is a coke portal to win prizes from coke partners by participating in actual promotion. you can create your CokeFridge account, collect codes from coca-cola bottle caps, transform them in coke-coins and participate in a promotion. done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>.",
-	"description": "<em>Flex</em> project with <em>Flash</em> elements and <em>pureMVC</em> framework. promotins are independant <em>Flash</em>-applications. my tasks: programm complete meta navigation with ist content and numerous promotions."
+	"description": "<em>Flex</em> project with <em>Flash</em> elements and <em>pureMVC</em> framework. promotins are independant <em>Flash</em>-applications. my tasks: programming of complete meta navigation, content pages and numerous promotions."
 	},
 	
 	{
 	"navi": "coke santa gift service",
 	"navi_icon_hex": "&loz;",
 	"heading": "Coke Christmas Gift Service application for facebook. you can customize and send your facebook friends a greeting for xmass 2009: choose a card, gift, wrapping-papper and write a personal message. done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>.",
-	"description": "<em>Flash</em> project with <em>pureMVC</em> framework. my tasks: create the <em>flash</em> <em>frontend</em> and integrate it with <em>facebook api</em>. the project is offline, watch the <a href=\"#\" id=\"facebook_video\" class=\"video_btn\">video</a> of it."
+	"description": "<em>Flash</em> project with <em>pureMVC</em> framework. my tasks: complete developing of the <em>flash</em> <em>frontend</em> and integration with <em>facebook api</em>. the project is offline, watch the <a href=\"#\" id=\"facebook_video\" class=\"video_btn\">video</a> of it."
 	},
 	
 	{
 	"navi": "fanta global kit",
 	"navi_icon_hex": "&Theta;",
 	"heading": "fanta global toolkit, part of  \"fantarize the world\" campaign of fanta international containing online games, flash banners, screensaver and rington creator. done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>. received a online star finalist award, <a href=\"http://www.onlinestar.de/\" target=\"_blank\">onlinestar.de</a>, ADC Global merit award, <a href=\"http://adcglobal.org\" target=\"_blank\">adcglobal.org</a> and others.",
-	"description": "<p><em>Flash</em> <em>AS2</em> project. my tasks: program level \"the tower\" and animate the banner:</p><div id=\"fanta_banner\">&nbsp;</div><p class=\"fanta_video\">the project is offline, watch the <a href=\"#\" id=\"fantarize_video\" class=\"video_btn\">video</a> of \"the tower\" level (online game).</p>"
+	"description": "<p><em>Flash</em> <em>AS2</em> project. my tasks: programming of \"the tower\"-level (online game) and animation of the banner:</p><div id=\"fanta_banner\">&nbsp;</div><p class=\"fanta_video\">the project is offline, watch the <a href=\"#\" id=\"fantarize_video\" class=\"video_btn\">video</a> of \"the tower\" level.</p>"
 	},
 	
 	{
 	"navi": "coke side of life",
 	"navi_icon_hex": "&curren;",
 	"heading": "cokesideoflife.de, the markwebsite of red coke with a lot of promotional content, e.i. Coca Cola Soundwave Discovery tour, Football, a.s.w. done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>. received a DDP - Silver award in 2007, <a href=\"http://www.ddp-award.de\" target=\"_blank\">ddp-award.de</a>.",
-	"description": "<em>Flash</em> <em>AS2</em> project. my tasks: program the new flash content, maintain the framework. the project is offline, watch the <a href=\"#\" id=\"csol_video\" class=\"video_btn\">video</a> of it."
+	"description": "<em>Flash</em> <em>AS2</em> project. my tasks: programming of the new flash content, maintaining of the framework. the project is offline, watch the <a href=\"#\" id=\"csol_video\" class=\"video_btn\">video</a> of it."
 	},
 	
 	{
 	"navi": "coke gateway",
 	"navi_icon_hex": "&alefsym;",
 	"heading": "<a href=\"http://www.coke.de\" target=\"_blank\">coke.de</a>, the gateway to the world of products of Coca-Cola done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>.",
-	"description": "<em>Flash</em> <em>AS2</em> project. my tasks: maintain the flash content. the project is offline, watch the <a href=\"#\" id=\"gateway_video\" class=\"video_btn\">video</a> of it."
+	"description": "<em>Flash</em> <em>AS2</em> project. my tasks: maintaining of the flash content. the project is offline, watch the <a href=\"#\" id=\"gateway_video\" class=\"video_btn\">video</a> of it."
 	},
 	
 	
 	{
-	"navi": "coke + fathless",
+	"navi": "coke + faithless",
 	"navi_icon_hex": "&micro;",
 	"heading": "coke-faithless.com, coke flash microsite to promote their new bottle design. you can explore the bottle by creating your own visual poetry and create your own bottle design by using your built in webcam, microphone, mouse and keyboard all to control the avatar who kindly throws your visual poetry onto the bottle. done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>. received a FWA - Site of the Day 07.06.2007, <a href=\"http://thefwa.com/site/coke-faithless\" target=\"_blank\">thefwa.com/site/coke-faithless</a>, DDC Gold 2007, <a href=\"http://ddc.de\" target=\"_blank\">ddc.de</a> and many others",
-	"description": "<em>Flash</em> <em>AS2</em> project. my tasks: my tasks: program the option-menu animation and the page about videoartists. the project is offline, watch the <a href=\"#\" id=\"faithless_video\" class=\"video_btn\">video</a> of it."
+	"description": "<em>Flash</em> <em>AS2</em> project. my tasks: my tasks: programming of the option-menu-animation and of the page about videoartists. the project is offline, watch the <a href=\"#\" id=\"faithless_video\" class=\"video_btn\">video</a> of it."
 	},
 	
 	{
@@ -108,7 +108,7 @@
 	{
 	"navi": "cartoon about light in cg",
 	"navi_icon_hex": "&ETH;",
-	"heading": "small cartoon i did for a <em>flash</em> cours during my studing in miralab.",
+	"heading": "small cartoon about light in computer graphics i did for a <em>flash</em> cours during my studing in miralab.",
 	"description": "<div id=\"cartoon\">&nbsp;</div><p>click the play button to continue! :-)</p>"
 	}
 ]

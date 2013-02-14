@@ -71,10 +71,24 @@
 				videoH = newH > 0 ? newH : videoH;
 				
 				
-				paddingTop = Math.round(0.4*(windowH-videoH));
+				paddingTop = Math.round(0.5*(windowH-videoH));
 				
 				$('#video_conatiner_inner').width(videoW+25);
 				$('#video_conatiner_inner').css('padding-top', paddingTop+'px');
+				
+				var v = document.createElement("video"); // Are we dealing with a browser that supports <video>?
+			    if ( !v.play ) {
+
+					$('v').detach();
+					var flashvars = {
+						video_name: "../../version2/videos/"+videoName+".f4v", 
+						video_width: videoW, 
+						video_height: videoH
+					};
+					swfobject.embedSWF("swf/video_test.swf", "flash_video", videoW, videoH, "9.0.0", "swf/expressInstall.swf", flashvars);
+					return;
+				}
+				
 				
 				$('video').detach();
 			

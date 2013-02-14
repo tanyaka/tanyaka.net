@@ -62,9 +62,13 @@
 					//show video layer				
 					$('.video_btn').on("click", function(event) {
 						event.preventDefault();
-						if($.browser.msie) {
-							var vidObj = document.getElementsByTagName('video')[0];	
-							vidObj.currentTime = vidObj.currentTime > 0 ? vidObj.currentTime : 0.1;
+						var v = document.createElement("video"); // Are we dealing with a browser that supports <video>?
+						if ( v.play ) {
+							if($.browser.msie) {
+							
+								var vidObj = document.getElementsByTagName('video')[0];	
+								vidObj.currentTime = vidObj.currentTime > 0 ? vidObj.currentTime : 0.1;
+							}
 						}
 						$("#video_wrapper").fadeIn();
 					});
@@ -129,7 +133,7 @@
 				}
 				
 				if($("#faithless_video").filter(":visible").length !== 0 && $("#faithless_video").parent().index() == data.currentArticle) {
-					$("#faithless_video").articles('videoUpdate', 'Coke+Faithless', 976, 592);
+					$("#faithless_video").articles('videoUpdate', 'CokeFaithless', 976, 592);
 				}
 				
 				if($("#facebook_video").filter(":visible").length !== 0 && $("#facebook_video").parent().index() == data.currentArticle) {
