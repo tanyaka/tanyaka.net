@@ -81,7 +81,7 @@
 
 					$('v').detach();
 					var flashvars = {
-						video_name: "../../version2/videos/"+videoName+".f4v", 
+						video_name: "../videos/"+videoName+".f4v", 
 						video_width: videoW, 
 						video_height: videoH
 					};
@@ -93,8 +93,8 @@
 				$('video').detach();
 			
 				$('<video width="'+videoW+'" height="'+videoH+'" class="right" controls="true" preload="false">'+
-					'<source src="../version2/videos/'+videoName+'.mp4" type="video/mp4">'+
-		            '<source src="../version2/videos/'+videoName+'.ogg" type="video/ogg">'+
+					'<source src="videos/'+videoName+'.mp4" type="video/mp4">'+
+		            '<source src="videos/'+videoName+'.ogg" type="video/ogg">'+
         		    'Your browser does not support the video tag.</video>').appendTo('#video_conatiner_inner');
 			
 				$('video').load();

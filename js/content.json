@@ -2,100 +2,100 @@
 	{
 	"navi": "kaufDA.de",
 	"navi_icon_hex": "&aelig;",
-	"heading": "<a href=\"http://kaufDA.de\" target=\"_blank\">kaufDA.de</a> is a location-based offer search platform, done by <a href=\"http://www.bonialinternationalgroup.com\" target=\"_blank\">bonialinternationalgroup.com</a>.",
-	"description": "my tasks: front end developement of a new <em>HTML5</em>-brochure-viewer, f.e. responsive toolbar on the top and different content menu.<br/>techniques: <em>JS</em>, <em>JQUERY</em>, <em>SCSS</em>, <em>groovy/grails</em>. to see an exmaple, go to <a href=\"http://kaufDA.de\" target=\"_blank\">kaufDA.de</a> and open any brochure."
+	"heading": "<a href=\"http://kaufDA.de\" target=\"_blank\">kaufDA.de</a> is a location-based platform for searching product offers, created by <a href=\"http://www.bonialinternationalgroup.com\" target=\"_blank\">bonialinternationalgroup.com</a>.",
+	"description": "my responsibilities: <em>frontend</em> development of a new <em>HTML5</em>-brochure-viewer, e.g. responsive toolbar on the top and different content menus<br/>technologies: <em>JS</em>, <em>JQUERY</em>, <em>SCSS</em>, <em>groovy/grails</em><br/>example: open any brochure at <a href=\"http://kaufDA.de\" target=\"_blank\">kaufDA.de</a>"
 	},
 	
 	{
 	"navi": "chaqwa",
 	"navi_icon_hex": "&upsih;",
-	"heading": "<a href=\"http://www.chaqwa.de\" target=\"_blank\">chaqwa.de</a>. a B2B and B2C microsite of hot drinks of the coca-cola company, done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>.",
-	"description": "my tasks: develop a framework, the styleguides, navigation and many content pages. techniques: <em>HTML5</em>, <em>JQUERY</em>, <em>CSS</em>, <em>SSI</em>."
+	"heading": "<a href=\"http://www.chaqwa.de\" target=\"_blank\">chaqwa.de</a> is a B2B and B2C microsite promoting hot drinks of the coca-cola company, created by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>.",
+	"description": "my responsibilities: framework development, styles, navigation and many content pages<br/>technologies: <em>HTML5</em>, <em>JQUERY</em>, <em>CSS</em>, <em>SSI</em><br/>example: <a href=\"http://chaqwa.de\" target=\"_blank\">chaqwa.de</a>"
 	},
 	
 	{
 	"navi": "peganova.de",
 	"navi_icon_hex": "&omega;",
-	"heading": "<a href=\"http://www.peganova.de\" target=\"_blank\">peganova.de</a>. photography, portfolio.",
-	"description": "design, programming. techniques: <em>Flash</em>, <em>AS3</em>, <em>XML</em>."
+	"heading": "<a href=\"http://www.peganova.de\" target=\"_blank\">peganova.de</a> is a photographer's portfolio.",
+	"description": "my responsibilities: design, programming<br/>technologies: <em>Fireworks</em>, <em>Flash</em>, <em>AS3</em>, <em>XML</em><br/>example: <a href=\"http://peganova.de\" target=\"_blank\">peganova.de</a>"
 	},
 
 	{	
 	"navi": "jackholden.org",
 	"navi_icon_hex": "&cent;",
-	"heading": "<a href=\"http://www.jackholden.org\" target=\"_blank\">jackholden.org</a>. artist, portfolio.",
-	"description": "design, programming. techniques: <em>Flash</em>, <em>AS3</em>, <em>XML</em>."
+	"heading": "<a href=\"http://www.jackholden.org\" target=\"_blank\">jackholden.org</a> is a fine artist's portfolio.",
+	"description": "my responsibilities: design, programming<br/>technologies: <em>Fireworks</em>, <em>Flash</em>, <em>AS3</em>, <em>XML</em><br/>example: <a href=\"http://jackholden.org\" target=\"_blank\">jackholden.org</a>"
 	},
 	
 	{
 	"navi": "apollinaris",
 	"navi_icon_hex": "&omicron;",
-	"heading": "<a href=\"http://www.apollinaris.de/de_de/\" target=\"_blank\">apollinaris.de</a>, german website of apollinaris mineral water products. done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>.",
-	"description": "<em>Flex</em>/<em>Flash</em> project with <em>pureMVC</em> framework. my tasks: programming and animation of numerous content pages and meta navigation."
+	"heading": "<a href=\"http://www.apollinaris.de\" target=\"_blank\">apollinaris.de</a> is a website for apollinaris mineral water products, created by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>.",
+	"description": "my responsibilities: programming and animation of numerous content pages and meta navigation.<br>technologies: <em>Flex</em>, <em>AS3</em>, <em>pureMVC framework</em>, <em>FLINT particle system</em><br/>example: <a href=\"http://apollinaris.de\" target=\"_blank\">apollinaris.de</a>"
 	},
 	
 	{
 	"navi": "CokeFridge",
 	"navi_icon_hex": "&amp;",
-	"heading": "<a href=\"http://www.CokeFridge.de\" target=\"_blank\">CokeFridge.de</a> is a coke portal to win prizes from coke partners by participating in actual promotion. you can create your CokeFridge account, collect codes from coca-cola bottle caps, transform them in coke-coins and participate in a promotion. done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>.",
-	"description": "<em>Flex</em> project with <em>Flash</em> elements and <em>pureMVC</em> framework. promotins are independant <em>Flash</em>-applications. my tasks: programming of complete meta navigation, content pages and numerous promotions."
+	"heading": "<a href=\"http://www.CokeFridge.de\" target=\"_blank\">CokeFridge.de</a> is a promotional web portal with strong user engagement, created by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a> for the coca-cola company.",
+	"description": "my responsibilities: programming of complete meta navigation, content pages and numerous promotions.<br>technologies: <em>Flex</em>, <em>MXML</em>, <em>Flash</em>, <em>AS3</em>, <em>pureMVC framework</em><br/>example: <a href=\"http://CokeFridge.de\" target=\"_blank\">CokeFridge.de</a>"
 	},
 	
 	{
-	"navi": "coke santa gift service",
+	"navi": "coke christmas gift service",
 	"navi_icon_hex": "&loz;",
-	"heading": "Coke Christmas Gift Service application for facebook. you can customize and send your facebook friends a greeting for xmass 2009: choose a card, gift, wrapping-papper and write a personal message. done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>.",
-	"description": "<em>Flash</em> project with <em>pureMVC</em> framework. my tasks: complete developing of the <em>flash</em> <em>frontend</em> and integration with <em>facebook api</em>. the project is offline, watch the <a href=\"#\" id=\"facebook_video\" class=\"video_btn\">video</a> of it."
+	"heading": "Coke Christmas Gift Service is a facebook application for sending customized christmas greetings to your facebook friends, created by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a> for the coca-cola company.",
+	"description": "my responsibilities: development of the <em>flash</em> <em>frontend</em> integrated into <em>facebook api</em>.<br>technologies: <em>Flash</em>, <em>AS3</em>, <em>pureMVC framework</em><br/>example: <a href=\"#\" id=\"facebook_video\" class=\"video_btn\">video</a>"
 	},
 	
 	{
 	"navi": "fanta global kit",
 	"navi_icon_hex": "&Theta;",
-	"heading": "fanta global toolkit, part of  \"fantarize the world\" campaign of fanta international containing online games, flash banners, screensaver and rington creator. done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>. received a online star finalist award, <a href=\"http://www.onlinestar.de/\" target=\"_blank\">onlinestar.de</a>, ADC Global merit award, <a href=\"http://adcglobal.org\" target=\"_blank\">adcglobal.org</a> and others.",
-	"description": "<p><em>Flash</em> <em>AS2</em> project. my tasks: programming of \"the tower\"-level (online game) and animation of the banner:</p><div id=\"fanta_banner\">&nbsp;</div><p class=\"fanta_video\">the project is offline, watch the <a href=\"#\" id=\"fantarize_video\" class=\"video_btn\">video</a> of \"the tower\" level.</p>"
+	"heading": "fanta global kit is a part of  \"fantarize the world\" campaign of fanta international, containing online games, flash banners, screensaver and rington creator. created by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a> for the coca-cola company. received a online star finalist award, <a href=\"http://www.onlinestar.de/\" target=\"_blank\">onlinestar.de</a>, ADC Global merit award, <a href=\"http://adcglobal.org\" target=\"_blank\">adcglobal.org</a> and others.",
+	"description": "my responsibilities: development of \"the tower\" level (online game) and animation of a banner:</p><div id=\"fanta_banner\">&nbsp;</div><br><p class=\"fanta_video\">technologies: <em>Flash</em>, <em>AS2</em><br/>example: <a href=\"#\" id=\"fantarize_video\" class=\"video_btn\">video</a> of \"the tower\" level (online game)</p>"
 	},
 	
 	{
 	"navi": "coke side of life",
 	"navi_icon_hex": "&curren;",
-	"heading": "cokesideoflife.de, the markwebsite of red coke with a lot of promotional content, e.i. Coca Cola Soundwave Discovery tour, Football, a.s.w. done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>. received a DDP - Silver award in 2007, <a href=\"http://www.ddp-award.de\" target=\"_blank\">ddp-award.de</a>.",
-	"description": "<em>Flash</em> <em>AS2</em> project. my tasks: programming of the new flash content, maintaining of the framework. the project is offline, watch the <a href=\"#\" id=\"csol_video\" class=\"video_btn\">video</a> of it."
+	"heading": "cokesideoflife.de is a brand website of red coke with a lot of promotional content, e.g. Coca Cola Soundwave Discovery tour, Football, and more. created by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a> for the coca-cola company. received a DDP - Silver award in 2007, <a href=\"http://www.ddp-award.de\" target=\"_blank\">ddp-award.de</a>.",
+	"description": "my responsibilities: development of flash content, maintenance of the old <em>AS2 framework</em><br/>technologies: <em>Flash</em>, <em>AS2</em><br>example: <a href=\"#\" id=\"csol_video\" class=\"video_btn\">video</a>"
 	},
 	
 	{
 	"navi": "coke gateway",
 	"navi_icon_hex": "&alefsym;",
-	"heading": "<a href=\"http://www.coke.de\" target=\"_blank\">coke.de</a>, the gateway to the world of products of Coca-Cola done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>.",
-	"description": "<em>Flash</em> <em>AS2</em> project. my tasks: maintaining of the flash content. the project is offline, watch the <a href=\"#\" id=\"gateway_video\" class=\"video_btn\">video</a> of it."
+	"heading": "<a href=\"http://www.coke.de\" target=\"_blank\">coke.de</a> is a gateway to coca-cola's world of products, created by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a> for the coca-cola company.",
+	"description": "my responsibilities: maintenance of flash content<br/>technologies: <em>Flash</em>, <em>AS2</em><br>example: <a href=\"#\" id=\"gateway_video\" class=\"video_btn\">video</a>"
 	},
 	
 	
 	{
 	"navi": "coke + faithless",
 	"navi_icon_hex": "&micro;",
-	"heading": "coke-faithless.com, coke flash microsite to promote their new bottle design. you can explore the bottle by creating your own visual poetry and create your own bottle design by using your built in webcam, microphone, mouse and keyboard all to control the avatar who kindly throws your visual poetry onto the bottle. done by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>. received a FWA - Site of the Day 07.06.2007, <a href=\"http://thefwa.com/site/coke-faithless\" target=\"_blank\">thefwa.com/site/coke-faithless</a>, DDC Gold 2007, <a href=\"http://ddc.de\" target=\"_blank\">ddc.de</a> and many others",
-	"description": "<em>Flash</em> <em>AS2</em> project. my tasks: my tasks: programming of the option-menu-animation and of the page about videoartists. the project is offline, watch the <a href=\"#\" id=\"faithless_video\" class=\"video_btn\">video</a> of it."
+	"heading": "coke-faithless.com is a coca-cola microsite, promoting a new bottle design. an avatar throws your visual poetry, composed with your webcam, microphone, mouse and keyboard, onto the bottle. created by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a> for the coca-cola company. received a FWA - Site of the Day 07.06.2007, <a href=\"http://thefwa.com/site/coke-faithless\" target=\"_blank\">thefwa.com/site/coke-faithless</a>, DDC Gold 2007, <a href=\"http://ddc.de\" target=\"_blank\">ddc.de</a> and many others",
+	"description": "my responsibilities: development of the animation in the option menu and the page about videoartists<br/>technologies: <em>Flash</em>, <em>AS2</em><br/>example: <a href=\"#\" id=\"faithless_video\" class=\"video_btn\">video</a>"
 	},
 	
 	{
 	"navi": "susuru",
 	"navi_icon_hex": "&zeta;",
-	"heading": "<a href=\"http://www.susuru.de\" target=\"_blank\">susuru.de</a>, japanese noodle bar.",
-	"description": "fair draughting, programming. techniques: <em>Flash</em>, <em>HTML</em>, <em>CSS</em>."
+	"heading": "<a href=\"http://www.susuru.de\" target=\"_blank\">susuru.de</a> is a japanese noodle bar.",
+	"description": "my responsibilities: fair draughting, programming<br/> technologies: <em>Flash</em>, <em>HTML</em>, <em>CSS</em><br/>example: <a href=\"http://www.susuru.de\" target=\"_blank\">susuru.de</a>"
 	},
 	
 	{
 	"navi": "brotundspiele",
 	"navi_icon_hex": "&oslash;",
-	"heading": "<a href=\"http://brotundspiele.eu/\" target=\"_blank\">brotundspiele.eu</a>, spreadshirt online-shop",
-	"description": "fair draughting, programming. techniques: <em>Flash</em>, <em>HTML</em>, <em>CSS</em>, <em>JavaScript</em>."
+	"heading": "<a href=\"http://brotundspiele.eu/\" target=\"_blank\">brotundspiele.eu</a> is a spreadshirt online-shop.",
+	"description": "my responsibilities: fair draughting, programming<br/> technologies: <em>Flash</em>, <em>HTML</em>, <em>CSS</em>, <em>JavaScript</em><br/>example: <a href=\"http://www.brotundspiele.eu\" target=\"_blank\">brotundspiele.eu</a>"
 	},
 	
 	{
-	"navi": "irma's cv",
+	"navi": "irma's profile",
 	"navi_icon_hex": "&times;",
-	"heading": "<a href=\"http://lisweb.de\" target=\"_blank\">lisweb.de</a>, computer sciences, web-page.",
-	"description": "design, programming. techniques: <em>HTML</em>, <em>CSS</em>, <em>JavaScript</em>."
+	"heading": "<a href=\"http://lisweb.de\" target=\"_blank\">lisweb.de</a> is a profile of a computer scientist.",
+	"description": "my responsibilities: design, programming<br/> technologies: <em>Photoshop</em>, <em>HTML</em>, <em>CSS</em>, <em>JavaScript</em><br/>example: <a href=\"http://www.lisweb.de\" target=\"_blank\">lisweb.de</a>"
 	},
 	
 	{
@@ -108,7 +108,7 @@
 	{
 	"navi": "cartoon about light in cg",
 	"navi_icon_hex": "&ETH;",
-	"heading": "small cartoon about light in computer graphics i did for a <em>flash</em> cours during my studing in miralab.",
+	"heading": "small cartoon about light in computer graphics i did for a <em>flash</em> course during my studying at miralab.",
 	"description": "<div id=\"cartoon\">&nbsp;</div><p>click the play button to continue! :-)</p>"
 	}
 ]
