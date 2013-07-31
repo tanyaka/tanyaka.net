@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>.: tanyaka.net:.</title>
+
+	<meta name='author' content='Tatjana Kaschperko Lindt, tanyaka.net'>
+	<meta name='description' content='Tatjana Kaschperko Lindt, Tatiana Kashperko, Tatiana Kachperko, frontend developer, HTML5, AS3, JS, JavaScript, JQUERY, CSS, SCSS, PureMVC, Flash, Flex, Berlin'>
+	<link rel="icon" href="ico2.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/mystyle.css">
+	<!--[if lte IE 8]>
+	<link rel="stylesheet"  href="css/IEbugs.css" type="text/css" />
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <script src="js/vendor/swfobject.js"></script>
+	<script type="text/x-handlebars-template" id="menu-tmpl">
+		{{#each []}}
+        <li>
+			<a class="a{{key}}" href="#/article/{{key}}">{{navi}}</a>
+		</li>
+        {{/each}}
+    </script>
+
+    <script type="text/x-handlebars-template" id="content-tmpl">
+    	<article>
+    		<header> {{{heading}}}</header>
+    		 {{{description}}}
+    	</article>
+    </script>
+
+    <script type="text/x-handlebars-template" id="video-tmpl">
+        <div id="video_conatiner">
+            <div id="flash_video"></div>
+            <video preload="false" controls="true" width="{{width}}" height="{{height}}" id="video">
+                <source type="video/mp4" src="videos/{{title}}.mp4"></source>
+                <source type="video/ogg" src="videos/{{title}}.ogg"></source>
+            </video>
+            <div id="close_btn">[x]</div>
+        </div>
+    </script>
+
+
+</head>
+
+<body>
+
+<aside class="sidebar left">
+    <header>
+    	tanyaka's work samples:
+    </header>
+    <nav id="main_nav">
+    	<ul></ul>
+    </nav>
+    
+    <footer>
+        profile: <a href="https://www.xing.com/profile/Tatjana_KaschperkoLindt" target="_blank">xing</a>[de] or <a href="http://de.linkedin.com/pub/tatjana-kaschperko-lindt/7/835/164" target="_blank">linkedin</a>[en]
+        <address>
+            contact: <a href="mailto:mail@tanyaka.net">mail@tanyaka.net</a>
+        </address>
+    </footer>
+
+    <ul id="validation">
+    	<li><a class="valid" href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.tanyaka.net%2F" target="blanc">Validate HTML</a></li>
+    	<li><a class="valid" href="http://jigsaw.w3.org/css-validator/check/referer" target="blanc">Validate CSS</a></li>
+    </ul>
+    
+</aside>
+
+<div role="main" class="left" id="main"></div>
+
+<div id="video_wrapper"></div>
+
+
+<script src="js/vendor/LAB.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $LAB
+    .script("js/vendor/jquery-1.8.3.min.js").wait()
+    .script("js/vendor/handlebars-1.0.0.beta.6.js").wait()
+    .script("js/vendor/underscore-min.js")
+    .script("js/vendor/backbone-min.js")
+    .script("js/Backboneapp.js");      
+</script>
+
+</body>
+</html>

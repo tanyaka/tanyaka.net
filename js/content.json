@@ -1,0 +1,121 @@
+[
+	{
+	"navi": "pumpkins-store.ru",
+	"key": 0,
+	"heading": "<a href=\"http://pumpkins-store.ru\" target=\"_blank\">pumpkins-store.ru</a> is an online-shop for stylish home accessories.",
+	"description": "my responsibilities: set up, development and programming<br/>technologies: <em>Photoshop</em>, <em>WordPress</em>, <em>HTML5</em>, <em>CSS3</em>, <em>Responsive Web Design</em><br/>example: <a href=\"http://pumpkins-store.ru\" target=\"_blank\">pumpkins-store.ru</a>"
+	},
+
+	{
+	"navi": "kaufDA.de",
+	"key": 1,
+	"heading": "<a href=\"http://kaufDA.de\" target=\"_blank\">kaufDA.de</a> is a location-based platform for searching product offers, created by <a href=\"http://www.bonialinternationalgroup.com\" target=\"_blank\">bonialinternationalgroup.com</a>.",
+	"description": "my responsibilities: <em>frontend</em> development of a new <em>HTML5</em>-brochure-viewer, e.g. responsive toolbar on the top and different content menus<br/>technologies: <em>JS</em>, <em>JQUERY</em>, <em>SCSS</em>, <em>groovy/grails</em><br/>example: open any brochure at <a href=\"http://kaufDA.de\" target=\"_blank\">kaufDA.de</a>"
+	},
+	
+	{
+	"navi": "chaqwa",
+	"key": 2,
+	"heading": "<a href=\"http://www.chaqwa.de\" target=\"_blank\">chaqwa.de</a> is a B2B and B2C microsite promoting hot drinks of the coca-cola company, created by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>.",
+	"description": "my responsibilities: framework development, styles, navigation and many content pages<br/>technologies: <em>HTML5</em>, <em>JQUERY</em>, <em>CSS</em>, <em>SSI</em><br/>example: <a href=\"http://chaqwa.de\" target=\"_blank\">chaqwa.de</a>"
+	},
+	
+	{
+	"navi": "peganova.de",
+	"key": 3,
+	"heading": "<a href=\"http://www.peganova.de/fullscreen/\" target=\"_blank\">peganova.de</a> is a photographer's portfolio.",
+	"description": "my responsibilities: design, programming<br/>technologies: <em>Fireworks</em>, <em>Flash</em>, <em>AS3</em>, <em>XML</em><br/>example: <a href=\"http://www.peganova.de/fullscreen/\" target=\"_blank\">peganova.de</a>"
+	},
+
+	{	
+	"navi": "jackholden.org",
+	"key": 4,
+	"heading": "<a href=\"../jackholden.org\" target=\"_blank\">jackholden.org</a> is a fine artist's portfolio.",
+	"description": "my responsibilities: design, programming<br/>technologies: <em>Fireworks</em>, <em>Flash</em>, <em>AS3</em>, <em>XML</em><br/>example: <a href=\"../jackholden.org\" target=\"_blank\">jackholden.org</a>"
+	},
+	
+	{
+	"navi": "apollinaris",
+	"key": 5,
+	"heading": "<a href=\"http://www.apollinaris.de\" target=\"_blank\">apollinaris.de</a> is a website for apollinaris mineral water products, created by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a>.",
+	"description": "my responsibilities: programming and animation of numerous content pages and meta navigation.<br>technologies: <em>Flex</em>, <em>AS3</em>, <em>pureMVC framework</em>, <em>FLINT particle system</em><br/>example: <a href=\"http://apollinaris.de\" target=\"_blank\">apollinaris.de</a>"
+	},
+	
+	{
+	"navi": "CokeFridge",
+	"key": 6,
+	"heading": "<a href=\"http://www.CokeFridge.de\" target=\"_blank\">CokeFridge.de</a> is a promotional web portal with strong user engagement, created by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a> for the coca-cola company.",
+	"description": "my responsibilities: programming of complete meta navigation, content pages and numerous promotions.<br>technologies: <em>Flex</em>, <em>MXML</em>, <em>Flash</em>, <em>AS3</em>, <em>pureMVC framework</em><br/>example: <a href=\"http://CokeFridge.de\" target=\"_blank\">CokeFridge.de</a>"
+	},
+	
+	{
+	"navi": "coke christmas gift service",
+	"key": 7,
+	"heading": "Coke Christmas Gift Service is a facebook application for sending customized christmas greetings to your facebook friends, created by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a> for the coca-cola company.",
+	"description": "my responsibilities: development of the <em>flash</em> <em>frontend</em> integrated into <em>facebook api</em>.<br>technologies: <em>Flash</em>, <em>AS3</em>, <em>pureMVC framework</em><br/>example: <a href=\"#\" data-name=\"facebook\" data-width=\"672\" data-height=\"640\" class=\"video_btn\">video</a>"
+	},
+	
+	{
+	"navi": "fanta global kit",
+	"key": 8,
+	"heading": "fanta global kit is a part of  \"fantarize the world\" campaign of fanta international, containing online games, flash banners, screensaver and rington creator. created by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a> for the coca-cola company. received a online star finalist award, <a href=\"http://www.onlinestar.de/\" target=\"_blank\">onlinestar.de</a>, ADC Global merit award, <a href=\"http://adcglobal.org\" target=\"_blank\">adcglobal.org</a> and others.",
+	"description": "<p>my responsibilities: development of \"the tower\" level (online game) and animation of a banner:</p><div id=\"fanta_banner\"></div><p class=\"fanta_video\">technologies: <em>Flash</em>, <em>AS2</em><br/>example: <a href=\"#\" data-name=\"fantarize\" data-width=\"896\" data-height=\"448\" class=\"video_btn\">video</a> of \"the tower\" level (online game)</p>"
+	},
+	
+	{
+	"navi": "coke side of life",
+	"key": 9,
+	"heading": "cokesideoflife.de is a brand website of red coke with a lot of promotional content, e.g. Coca Cola Soundwave Discovery tour, Football, and more. created by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a> for the coca-cola company. received a DDP - Silver award in 2007, <a href=\"http://www.ddp-award.de\" target=\"_blank\">ddp-award.de</a>.",
+	"description": "my responsibilities: development of flash content, maintenance of the old <em>AS2 framework</em><br/>technologies: <em>Flash</em>, <em>AS2</em><br>example: <a href=\"#\" data-name=\"CokeSideOfLife\" data-width=\"1008\" data-height=\"576\" class=\"video_btn\">video</a>"
+	},
+	
+	{
+	"navi": "coke gateway",
+	"key": 10,
+	"heading": "<a href=\"http://www.coke.de\" target=\"_blank\">coke.de</a> is a gateway to coca-cola's world of products, created by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a> for the coca-cola company.",
+	"description": "my responsibilities: maintenance of flash content<br/>technologies: <em>Flash</em>, <em>AS2</em><br>example: <a href=\"#\" data-name=\"CokeGateway\" data-width=\"1120\" data-height=\"592\" class=\"video_btn\">video</a>"
+	},
+	
+	
+	{
+	"navi": "coke + faithless",
+	"key": 11,
+	"heading": "coke-faithless.com is a coca-cola microsite, promoting a new bottle design. an avatar throws your visual poetry, composed with your webcam, microphone, mouse and keyboard, onto the bottle. created by <a href=\"http://www.argonauteng2.de\" target=\"_blank\">argonauteng2.de</a> for the coca-cola company. received a FWA - Site of the Day 07.06.2007, <a href=\"http://thefwa.com/site/coke-faithless\" target=\"_blank\">thefwa.com/site/coke-faithless</a>, DDC Gold 2007, <a href=\"http://ddc.de\" target=\"_blank\">ddc.de</a> and many others",
+	"description": "my responsibilities: development of the animation in the option menu and the page about videoartists<br/>technologies: <em>Flash</em>, <em>AS2</em><br/>example: <a href=\"#\" data-name=\"CokeFaithless\" data-width=\"976\" data-height=\"592\" class=\"video_btn\">video</a>"
+	},
+	
+	{
+	"navi": "susuru",
+	"key": 12,
+	"heading": "<a href=\"http://www.susuru.de\" target=\"_blank\">susuru.de</a> is a japanese noodle bar.",
+	"description": "my responsibilities: fair draughting, programming<br/> technologies: <em>Flash</em>, <em>HTML</em>, <em>CSS</em><br/>example: <a href=\"http://www.susuru.de\" target=\"_blank\">susuru.de</a>"
+	},
+	
+	{
+	"navi": "brotundspiele",
+	"key": 13,
+	"heading": "<a href=\"http://brotundspiele.eu/\" target=\"_blank\">brotundspiele.eu</a> is a spreadshirt online-shop.",
+	"description": "my responsibilities: fair draughting, programming<br/> technologies: <em>Flash</em>, <em>HTML</em>, <em>CSS</em>, <em>JavaScript</em><br/>example: <a href=\"http://www.brotundspiele.eu\" target=\"_blank\">brotundspiele.eu</a>"
+	},
+	
+	{
+	"navi": "irma's profile",
+	"key": 14,
+	"heading": "<a href=\"http://lisweb.de\" target=\"_blank\">lisweb.de</a> is a profile of a computer scientist.",
+	"description": "my responsibilities: design, programming<br/> technologies: <em>Photoshop</em>, <em>HTML</em>, <em>CSS</em>, <em>JavaScript</em><br/>example: <a href=\"http://www.lisweb.de\" target=\"_blank\">lisweb.de</a>"
+	},
+	
+	{
+	"navi": "miralab",
+	"key": 15,
+	"heading":"<div id=\"miralab\"></div><!--p>screenshots 1 2 3 4</p--><p>Restructuring of the <a href=\"http://www.miralab.ch/\" target=\"_blank\">MIRALab</a>'s intranet<br/>University of Geneva, 2004<br/>Faculty of Economics and Social Sciences<br/>Postgraduate DEA in \"Communication and Media Studies\"</p>",
+	"description": "<h2>General description</h2><h3>1. Main objective</h3><p>Develop a new version of the <a href=\"http://www.miralab.ch/\" target=\"_blank\">MIRALab</a>'s intranet according to the new <em>ColdFusion</em> dynamic technologies. Integrate the old intranet's contents with the new database contents and develop new tools to take advantage of this dynamicity.</p><h3>2. Technical purposes and goals</h3><ul><li>Create a new design of INTRANET and integrate it with a technical structure, that can be easily be updated, programmed with <em>ColdFusion</em> and linked to databases, developed in <em>HTML</em> + .cfm templates.</li><li>Show all the necessary private information about the staff of <a href=\"http://www.miralab.ch/\" target=\"_blank\">MIRALab</a> and provide a possibility to update it directly via the website.</li><li>Create a 'questions and answers' section founded on a database and equipped with a search tool. Users may keep it up to date by adding their own records and modifying the given ones.</li><li>Create several small and integrated web-based applications that will allow the user to update some sections.</li></ul><h3>3. Programming languages used</h3><ul><li>Basic <em>HTML</em></li><li><em>ColdFusion</em></li><li><em>SQL</em></li></ul><h3>4. Programs used</h3><ul><li><em>Dreamweaver MX</em></li><li><em>Flash MX</em></li><li><em>Access</em></li><li><em>MySQL database</em></li></ul>"
+	},
+	
+	{
+	"navi": "cartoon about light in cg",
+	"key": 16,
+	"heading": "small cartoon about light in computer graphics i did for a <em>flash</em> course during my studying at miralab.",
+	"description": "<div id=\"cartoon\"></div><p>click the play button to continue! :-)</p>"
+	}
+]
