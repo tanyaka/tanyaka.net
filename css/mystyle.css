@@ -1,5 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
+
+body, html{
+ height: 100%;
+ padding: 0;
+}
+
 body { 
 	
 	font-family: "Courier New", Courier, mono;
@@ -27,32 +33,34 @@ a:hover {
 	text-shadow: none;
 }
 
-.sidebar {
-	max-width:400px;
+#sidebar {
+	width:250px;
 	background: none repeat scroll 0 0 #FFFFFF;
 	box-shadow: 0 0 20px #CCCCCC;
 	z-index: 10;
-	position: fixed;
+	display: table;
 	height: 100%;
-	padding:50px 50px;
-	top: 0;
-	left: 0;
-	bottom: 0;
+	padding: 0 50px;
 }
 
-.sidebar >nav {
+
+#sidebar >header {
+	margin: 50px 0 0 0;
+}
+
+#sidebar >nav {
 	margin: 20px 0;
 }
 
-#validation {
-	position: absolute;
-	bottom: 120px;
-	left: 45px;
-	list-style-type: none;
+#sidebar >address{
+	margin-bottom: 50px;
 }
 
-#validation li {
-	float: left;
+#sidebar >footer {
+	height: 50px;
+	display: table-row;
+	vertical-align: bottom;
+
 }
 
 a.valid {
@@ -74,7 +82,7 @@ a.valid:hover {
 }
 
 #main {
-	margin-left: 400px;
+	margin-left: 70px;
 }
 
 #main article {
@@ -128,13 +136,13 @@ a.valid:hover {
 	padding-right: 30px;
 	position: relative;
 	max-width:90%; 
-	height:auto;/**/
+	height:auto;
 }
 
-#video/*, #flash_video*/{
+#video {
 	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 	max-width: 100%;
-	height: auto;/**/
+	height: auto;
 	margin-top: 2px;
 }
 

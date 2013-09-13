@@ -13,24 +13,14 @@
 	background-color: #fff;
 }
 
-/*#video_conatiner {
-	background-color: yellow;
-}
-
-
-#flash_video{
-	margin-top: 4px;
-}
-*/
-#close_btn {
-
-}
-
-.sidebar{
+#sidebar{
 	border-right: 1px solid #ccc;
 }
 
 #main {
-	position: relative;
 	width: 600px;
+}
+
+a.valid {
+  background: #ccc;
 }
